@@ -3,62 +3,83 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio | Nicholas Golden</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="assets/css/stickyfooter.css" rel="stylesheet">
+  
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Nicholas Golden</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span class="navbar-brand mb-1 h1">Nick Golden</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse"
+        aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main role="main" class="container">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="page-header">
+                  <br><br>
+                  <h1>Portfolio</h1>
+                </div>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                  <img src="assets/images/technics-q-c-640-480-1.jpg" class="img-thumbnail" alt="Word Guess">
+                  <h3>Word Guess</h3>
+              </div>
+              <div class="col-md-6">
+                  <img src="assets/images/technics-q-c-640-480-2.jpg"  class="img-thumbnail" alt="RPG Game">
+                  <h3>RPG Game</h3>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/technics-q-c-640-480-5.jpg" class="img-thumbnail" alt="Trivia Game">
+                    <h3>Trivia Game</h3>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/technics-q-c-640-480-7.jpg" class="img-thumbnail" alt="Rutgers Info Widget">
+                    <h3>Rutgers Info Widget</h3>
+                </div>
+            </div>
+            <div class="row">
+                  <div class="col-md-6">
+                      <img src="assets/images/technics-q-c-640-480-9.jpg" class="img-thumbnail" alt="Rock Paper Scissors">
+                      <h3>Rock Paper Scissors</h3>
+                  </div>
+                  <div class="col-md-6">
+                   &nbsp;  
+                  </div>
+              </div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
+</main>
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted">&copy; Nick Golden</span>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>  
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- Bootstrap JavaScript CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
